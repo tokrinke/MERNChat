@@ -1,0 +1,77 @@
+.settings-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+    @apply flex items-center justify-center
+}
+
+.settings-menu{
+    height: 70%;
+    width: 60%;
+    background-color: #1f1f23;
+    @apply shadow-2xl rounded-xl border border-zinc-900 
+    flex flex-row
+}
+
+.s-menu-left{
+    height: 100%;
+    width: 30%;
+    @apply border-r border-neutral-800 flex flex-col items-center
+}
+
+.profile-picture{
+    height: 70%;
+    width: 100%;
+    @apply flex justify-center py-10
+}
+
+#pfp{
+    @apply h-48 aspect-square border rounded-full
+}
+
+.placeholder{
+    @apply h-48 aspect-square border rounded-full flex items-center justify-center
+}
+
+.sml-bot{
+    height: 30%;
+    width: 100%;
+    @apply flex items-center justify-center
+}
+
+.upload-div{
+    height: 100%;
+    width: 100%;
+    @apply text-center
+}
+
+.upload-pfp-btn{
+    height: 100%;
+    width: 100%;    
+}
+
+.s-menu-right{
+    height: 100%;
+    width: 70%;
+    @apply flex flex-col gap-2 p-5
+}
+
+.splitter{
+    height: 10%;
+}
+
+.details{
+    height: 90%;
+}
+
+.div{
+    @apply text-pink-700
+}
+
+.to-home{
+    height: fit-content;
+    width: fit-content;
+    @apply p-2 hover:underline text-pink-700
+     hover:cursor-pointer rounded-md transition ease-in-out 
+     duration-200 self-center
+}

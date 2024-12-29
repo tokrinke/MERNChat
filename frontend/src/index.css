@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-leagueSpartan
+}
+
+.avatar-img{
+    @apply h-14 aspect-square rounded-full
+}
+
+.bg-auth{
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+    @apply  flex justify-center items-center
+}
+
+.auth-container{
+    height: 70vh;
+    aspect-ratio: 2/3;
+    background-color: #252529;
+    @apply  rounded-2xl shadow-2xl border border-zinc-900
+}
+
+.auth-box{
+    height: 90%;
+    background-color: #1f1f23;
+    @apply rounded-2xl border-b border-neutral-800 shadow-md
+}
+
+.form-head{
+    height: 35%;
+    width: 100%;
+    @apply  flex flex-col text-center border-b border-neutral-800 shadow-sm
+}
+
+.form-body{
+    height: 65%;
+    width: 100%;
+    @apply  shadow-inner flex justify-center
+}
+
+.form{
+    width: 80%;
+    height: 100%;
+    @apply flex flex-col gap-2 justify-start items-center p-5
+}
+
+.input-line{
+    width: 80%;
+    @apply flex flex-col text-white
+}
+
+.input{
+    background-color: #242429;
+    @apply rounded-md py-1 px-2 outline-1 outline-double outline-neutral-700 focus:border-pink-700
+}
+
+.auth-foot{
+    height: 10%;
+    width: 100%;
+    @apply flex items-center justify-center
+}

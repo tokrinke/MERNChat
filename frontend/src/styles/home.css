@@ -1,0 +1,115 @@
+.home-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+    @apply flex justify-center items-center gap-5
+}
+
+.sidebar{
+    height: 95%;
+    width: 20%;
+    background-color: #1f1f23;
+    @apply shadow-2xl rounded-xl border border-neutral-800
+}
+
+.sidebar-top{
+    height: 10%;
+    width: 100%;
+    @apply flex border-b border-neutral-800
+}
+
+.user-details{
+    height: 100%;
+    width: 85%;
+    @apply border-r border-neutral-800 flex p-2 gap-2
+}
+
+.avatar{
+    @apply h-16 aspect-square rounded-full 
+}
+
+.avatar-online{
+    @apply border border-green-500
+}
+
+.sidebar-top-right{
+    height: 100%;
+    width: 15%;
+    @apply flex flex-col
+}
+
+.btns{
+    width: 100%;
+    height: 50%;
+    @apply flex items-center justify-center hover:cursor-pointer 
+    shadow-inner text-neutral-500 transition ease-in-out duration-200
+    hover:bg-zinc-800
+}
+
+.user-settings-btn{
+    @apply border-b border-neutral-800 hover:text-white rounded-tr-xl
+}
+
+.log-out-btn{
+    @apply hover:text-red-700 
+}
+
+.sidebar-body{
+    height: 90%;
+    width: 100%;
+    @apply rounded-b-xl
+}
+
+.sidebar-body-head{
+    height: 6%;
+    width: 100%;
+    @apply border-b border-neutral-800 shadow-inner 
+    flex items-center justify-center
+}
+
+.user-search-btn{
+    width: 15%;
+    height: 100%;
+    @apply flex items-center justify-center border-r border-neutral-800 hover:cursor-pointer
+    text-white 
+}
+
+.search-div{
+    height: 100%;
+    width: 85%;
+    @apply flex flex-row items-center
+}
+
+#search-users{
+    height: 100%;
+    width: 100%;
+    @apply bg-transparent outline-none p-4 text-white
+    hover:placeholder:text-white focus-within:placeholder:text-white
+    transition ease-in-out duration-200
+}
+
+.chat-list-box{
+    position: relative;
+    height: 94%;
+    width: 100%;
+    @apply shadow-inner rounded-b-xl 
+}
+
+.clb-title{
+    height: 6%;
+    width: 100%;
+    @apply border-b border-neutral-800
+    flex items-center justify-between px-4 text-white text-xl font-semibold
+}
+
+.chat-list{
+    height: 90%;
+    width: 100%;
+    @apply shadow-inner 
+}
+
+.clb-foot{
+    height: 4%;
+    width: 100%;
+    @apply border-t border-neutral-800
+}

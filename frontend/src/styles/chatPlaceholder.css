@@ -1,0 +1,9 @@
+.chat-placeholder{
+    height: 95vh;
+    width: 75%;
+    background-color: #1f1f23;
+    z-index: 2;
+    @apply shadow-2xl rounded-xl border border-neutral-800
+    flex items-center justify-center
+}
+

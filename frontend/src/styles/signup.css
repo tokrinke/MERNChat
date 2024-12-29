@@ -1,0 +1,16 @@
+.fh-top{
+    height: 55%;
+    width: 100%;
+    @apply flex flex-col items-center justify-end
+}
+
+.fh-bot{
+    height: 45%;
+    width: 100%;
+    @apply flex flex-col items-center justify-start gap-2
+}
+
+.signup-btn{
+    width: 80%;
+    @apply transition ease-in-out duration-300 rounded-md py-1 px-4 text-white bg-pink-700 font-semibold text-xl hover:bg-pink-800 
+}

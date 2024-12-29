@@ -1,0 +1,56 @@
+.started-chat-container{
+    position: relative;
+    height: 7vh;
+    width: 100%;
+    @apply border-b border-neutral-800 flex text-white 
+    hover:cursor-pointer hover:shadow-inner hover:bg-zinc-800
+    transition ease-in-out duration-200
+}
+
+.selected-chat-active{
+    @apply bg-zinc-900 text-pink-700 shadow-2xl
+}
+
+.started-chat-avatar-cont{
+    width: 20%;
+    height: 100%;
+    @apply flex items-center justify-center
+}
+
+.started-chat-avatar{
+    @apply h-14 aspect-square border border-neutral-700 rounded-full 
+}
+
+.avatar-online{
+    @apply border border-green-500
+}
+
+.sc-details{
+    width: 80%;
+    height: 50%;
+    @apply flex flex-col
+}
+
+.sc-name-date{
+    @apply flex flex-row justify-between pr-2 pt-2
+}
+
+.started-chat-name{
+    @apply text-xl
+}
+
+.message-received-time{
+    @apply text-neutral-500
+}
+
+.last-message{
+    width: 80%;
+    height: 50%;
+    @apply text-neutral-200
+}
+
+.unread-msg-count{
+    position: absolute;
+    @apply h-5 bg-red-600 rounded-full aspect-square text-white text-center
+    font-semibold text-base shadow-sm top-1 left-2
+}
